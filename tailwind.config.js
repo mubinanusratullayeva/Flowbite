@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     extend: {},
     container:{
-      center: true
+      center: true,
+    },
+    backgroundImage: {
+      'hero-image': "url('./dist/bg-imgs/phone-mockup.png')"
     }
   },
   plugins: [],
