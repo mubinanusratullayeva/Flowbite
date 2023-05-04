@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-menu{
+    @apply py-4 !important;
+}
+
+.menubar{
+    @apply min-width: 100% !important;
+}
